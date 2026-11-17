@@ -19,6 +19,10 @@
   <img src="docs/mar.gif" width="720" alt="Una carta se dobla en avión de papel, cae al mar y se hunde hasta el fondo">
 </p>
 
+<p align="center">
+  <a href="https://alternativeto.net/software/suelta/about/?utm_source=badge&utm_medium=referral" target="_blank"><img src="https://alternativeto.net/static/badges/badge-compact-color.svg" alt="Suelta | AlternativeTo" width="183" height="59"></a>
+</p>
+
 ---
 
 ## Por qué existe

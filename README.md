@@ -19,6 +19,10 @@
   <img src="docs/sea.gif" width="720" alt="A letter folds into a paper plane, falls into the sea and sinks to the seabed">
 </p>
 
+<p align="center">
+  <a href="https://alternativeto.net/software/suelta/about/?utm_source=badge&utm_medium=referral" target="_blank"><img src="https://alternativeto.net/static/badges/badge-compact-color.svg" alt="Suelta | AlternativeTo" width="183" height="59"></a>
+</p>
+
 ---
 
 ## Why it exists
