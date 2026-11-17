@@ -1,0 +1,7 @@
+"SUELTA_TITLE" = "Suelta";
+"APP_TITLE" = "Suelta";
+"APP_DESC" = "La app. Se instala en la carpeta Aplicaciones.";
+"LANG_ES_TITLE" = "Idioma: Español";
+"LANG_ES_DESC" = "La app se abrirá en español.";
+"LANG_EN_TITLE" = "Idioma: English";
+"LANG_EN_DESC" = "La app se abrirá en inglés. Al marcar esta opción se desmarca Español.";

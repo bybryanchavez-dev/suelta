@@ -1,0 +1,16 @@
+# Compilación · Build output
+build/
+build.log
+*.pkg
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode (por si alguien abre el proyecto en Xcode)
+*.xcuserstate
+xcuserdata/
+DerivedData/
+.swiftpm/

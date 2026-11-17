@@ -1,0 +1,9 @@
+#!/bin/bash
+# Guarda el idioma elegido en el instalador para el usuario que tiene la sesión abierta.
+LANG_CODE="en"
+U=$(stat -f%Su /dev/console)
+if [ -n "$U" ] && [ "$U" != "root" ]; then
+  sudo -u "$U" defaults write com.bryanchavez.suelta appLanguage -string "$LANG_CODE"
+  sudo -u "$U" defaults write com.bryanchavez.suelta AppleLanguages -array "$LANG_CODE"
+fi
+exit 0

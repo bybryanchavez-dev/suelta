@@ -1,0 +1,7 @@
+"SUELTA_TITLE" = "Suelta";
+"APP_TITLE" = "Suelta";
+"APP_DESC" = "The app. It's installed in the Applications folder.";
+"LANG_ES_TITLE" = "Language: Español";
+"LANG_ES_DESC" = "The app will open in Spanish.";
+"LANG_EN_TITLE" = "Language: English";
+"LANG_EN_DESC" = "The app will open in English. Checking this option unchecks Español.";

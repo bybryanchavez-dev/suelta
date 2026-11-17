@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key><string>Suelta</string>
+	<key>CFBundleDisplayName</key><string>Suelta</string>
+	<key>CFBundleIdentifier</key><string>com.bryanchavez.suelta</string>
+	<key>CFBundleExecutable</key><string>Suelta</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>1.1</string>
+	<key>CFBundleVersion</key><string>2</string>
+	<key>CFBundleIconFile</key><string>AppIcon</string>
+	<key>CFBundleDevelopmentRegion</key><string>es</string>
+	<key>CFBundleLocalizations</key><array><string>es</string><string>en</string></array>
+	<key>CFBundleAllowMixedLocalizations</key><true/>
+	<key>LSMinimumSystemVersion</key><string>26.0</string>
+	<key>LSApplicationCategoryType</key><string>public.app-category.lifestyle</string>
+	<key>NSHighResolutionCapable</key><true/>
+	<key>NSMicrophoneUsageDescription</key><string>Suelta usa el micrófono para que puedas dictar tus cartas o grabar notas de voz. El audio se queda en tu Mac.</string>
+	<key>NSSpeechRecognitionUsageDescription</key><string>Suelta convierte tu voz en texto para escribir tus cartas, en este Mac siempre que es posible.</string>
+</dict>
+</plist>
