@@ -1,137 +1,120 @@
 <p align="center">
-  <img src="docs/icon.png" width="128" alt="Icono de Suelta">
+  <img src="docs/icon.png" width="128" alt="Suelta app icon">
 </p>
 
 <h1 align="center">Suelta</h1>
 
 <p align="center">
-  Escribe lo que llevas dentro. Elige para quién es. Y déjalo ir.<br>
-  <em>Write what you're carrying. Choose who it's for. Then let it go.</em>
+  Write what you're carrying. Choose who it's for. Then let it go.<br>
+  <em>"Suelta" means "let go" in Spanish.</em>
 </p>
 
 <p align="center">
-  <a href="../../releases/latest">Descargar para Mac</a> ·
-  <a href="#english">English</a> ·
-  Gratis y de código abierto (GPL v3)
+  <a href="../../releases/latest"><b>Download for Mac</b></a> ·
+  <a href="README.es.md">Español</a> ·
+  Free and open source (GPL v3)
+</p>
+
+<p align="center">
+  <img src="docs/sea.gif" width="720" alt="A letter folds into a paper plane, falls into the sea and sinks to the seabed">
 </p>
 
 ---
 
-## Por qué existe
+## Why it exists
 
-Todos cargamos cosas que nunca dijimos: a una expareja, a la familia, a un amigo, a Dios, a nuestra fe, a nuestro psicólogo o a nosotros mismos. Lo que nos estresa, lo que nos enoja, lo que nos pesa… y también lo que nos alegra.
+We all carry things we never said: to an ex, to our family, to a friend, to God, to our faith, to our therapist, or to ourselves. Things that stress us, anger us, weigh on us… and things that make us happy, too.
 
-Escribirlo ayuda. El psicólogo James Pennebaker lleva estudiando la **escritura expresiva** desde los años 80: poner en palabras lo que vivimos cambia la forma en que lo cargamos. Verlo fuera de ti, releerlo y después **soltarlo** es un ritual sencillo y poderoso.
+Writing it down helps. Psychologist James Pennebaker has studied **expressive writing** since the 1980s: putting what we live through into words changes how we carry it. Seeing it outside of you, rereading it, and then **letting it go** is a simple, powerful ritual.
 
-Suelta nace para eso:
+That's what Suelta is for:
 
-1. **Escribes** sin filtro, o **hablas** y se escribe solo, o grabas una nota de voz.
-2. Marcas **lo que sientes**: estrés, enojo, ansiedad, tristeza, culpa, alegría, gratitud…
-3. Eliges **para quién es**: para ti, tu ex, tu familia, Dios, alguien que ya no está…
-4. Y decides **cómo soltarlo**:
-   - ✈️ **Que vuele**: la carta se dobla en un avión de papel y despega.
-   - 🌊 **Al fondo del mar**: se hunde y descansa con las demás. Puedes verlas, pero no rescatarlas.
-   - 🗑️ **A la papelera**: se arruga, cae a la papelera y desaparece para siempre.
-5. Al final aparece una frase breve de psicología relacionada con lo que sentías.
+1. **Write** without a filter, **dictate** and let it type for you, or record a voice note.
+2. Mark **how you feel**: stress, anger, anxiety, sadness, guilt, joy, gratitude…
+3. Choose **who it's for**: yourself, your ex, your family, God, someone who's gone…
+4. Decide **how to let it go**:
+   - ✈️ **Let it fly**: the letter folds into a paper plane and takes off.
+   - 🌊 **To the bottom of the sea**: it sinks and rests with the others. You can see them, but never recover them.
+   - 🗑️ **To the trash**: it's crumpled up, dropped in the bin and gone for good.
+5. At the end you'll see a short psychology quote that matches what you were feeling.
 
-El envío es simbólico: **nadie recibe nada**. La carta se borra de tu Mac en el momento en que la sueltas.
+Nothing is actually sent. **No one receives anything**, and the letter is erased from your Mac the moment you let it go.
 
 <p align="center">
-  <img src="docs/escribir.png" width="49%" alt="Escribir una carta">
-  <img src="docs/enviar.png" width="49%" alt="Elegir cómo soltarla">
-  <img src="docs/mar.png" width="49%" alt="La carta se hunde en el mar">
-  <img src="docs/despedida.png" width="49%" alt="Despedida con una frase de psicología">
+  <img src="docs/plane.gif" width="49%" alt="Paper plane">
+  <img src="docs/trash.gif" width="49%" alt="Trash">
 </p>
 
-## Privacidad
+## Privacy
 
-- **Todo se queda en tu Mac.** Suelta no tiene servidores, cuentas, anuncios ni analíticas, y no se conecta a internet.
-- Las cartas que todavía no has soltado se guardan solo en tu Mac (`~/Library/Application Support/Suelta`).
-- Al soltar una carta se borran su texto y su audio. Si va al mar, solo queda su silueta, sin palabras.
-- El dictado usa el reconocimiento de voz de macOS y, cuando el Mac lo permite, funciona sin conexión.
+- **Everything stays on your Mac.** Suelta has no servers, accounts, ads or analytics, and it never connects to the internet.
+- Letters you haven't let go yet are stored only on your Mac (`~/Library/Application Support/Suelta`).
+- Letting a letter go deletes its text and audio. If it goes to the sea, only its silhouette remains, with no words.
+- Dictation uses macOS speech recognition and runs on-device whenever your Mac supports it.
 
-## Instalar
+## Install
 
-**Requisitos:** macOS 26 (Tahoe) o posterior.
+**Requires** macOS 26 (Tahoe) or later.
 
-1. Descarga `Suelta-Instalador.pkg` desde la [última versión](../../releases/latest).
-2. Ábrelo. En el paso **Tipo de instalación** elige el idioma: **Español** o **English**.
-3. Abre Suelta desde Spotlight o Launchpad.
+1. Download `Suelta-Instalador.pkg` from the [latest release](../../releases/latest).
+2. Open it. In the **Installation Type** step, choose the language: **Español** or **English**.
+3. Open Suelta from Spotlight or Launchpad.
 
-> **Aviso de macOS:** por ahora el instalador no está firmado con una cuenta de Apple Developer, así que macOS puede decir que viene de un desarrollador no identificado. Para abrirlo: clic derecho sobre el archivo › **Abrir**, o en **Ajustes del Sistema › Privacidad y seguridad › Abrir igualmente**.
+> **macOS warning:** the installer isn't notarized by Apple yet, so macOS may say it comes from an unidentified developer. To open it, right-click the file › **Open**, or go to **System Settings › Privacy & Security › Open Anyway**.
 
-Puedes cambiar el idioma cuando quieras en **Suelta › Ajustes** (⌘,).
+You can change the language any time in **Suelta › Settings** (⌘,).
 
-### Atajos
+### Shortcuts
 
-| Atajo | Acción |
+| Shortcut | Action |
 | --- | --- |
-| ⌘N | Nueva carta |
-| ⌘↩ | Enviar (elegir destinatario y destino) |
-| ⌘D | Dictar / dejar de dictar |
-| ⌘, | Ajustes: idioma y frase al soltar |
-| ⌘2 / ⌘3 | Sin enviar / El fondo del mar |
+| ⌘N | New letter |
+| ⌘↩ | Send (choose who it's for and how to let it go) |
+| ⌘D | Dictate / stop dictating |
+| ⌘, | Settings: language and quote after letting go |
+| ⌘2 / ⌘3 | Unsent / The Seabed |
 
-## Compilar desde el código
+## Build from source
 
-Solo necesitas las herramientas de línea de comandos de Xcode (`xcode-select --install`).
+You only need the Xcode command line tools (`xcode-select --install`).
 
 ```bash
 git clone https://github.com/bybryanchavez-dev/suelta.git
 cd suelta
-bash build.sh          # compila e instala en Aplicaciones
-bash build.sh --pkg    # crea el instalador en build/Suelta-Instalador.pkg
+bash build.sh          # builds and installs into Applications
+bash build.sh --pkg    # builds the installer at build/Suelta-Instalador.pkg
 ```
 
-La app está hecha en **Swift y SwiftUI**, sin dependencias externas. Las animaciones se dibujan con `Canvas`.
+Suelta is written in **Swift and SwiftUI** with no third-party dependencies. The animations are drawn with `Canvas`.
 
-| Carpeta | Contenido |
+| Folder | Contents |
 | --- | --- |
-| `Sources/` | Código de la app |
-| `Resources/` | Icono, sonidos e `Info.plist` |
-| `installer/` | Instalador `.pkg` con selección de idioma |
-| `docs/` | Imágenes de este README |
+| `Sources/` | App code |
+| `Resources/` | Icon, sounds and `Info.plist` |
+| `installer/` | `.pkg` installer with language selection |
+| `docs/` | Images used in this README |
 
-## Hoja de ruta
+## Roadmap
 
-Por ahora Suelta funciona en **Mac**. La idea es llevarla también a:
+Suelta runs on **Mac** today. The plan is to bring it to:
 
-- [ ] **iPhone y iPad**: gran parte del código SwiftUI se puede reutilizar.
+- [ ] **iPhone and iPad**: much of the SwiftUI code can be reused.
 - [ ] **Android**
 - [ ] **Windows**
-- [ ] Más idiomas y más frases.
+- [ ] More languages and more quotes.
 
-¿Quieres ayudar? Lee [CONTRIBUTING.md](CONTRIBUTING.md).
+Want to help? Read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Importante
+## Important
 
-Suelta es una herramienta de bienestar personal. **No sustituye a la ayuda profesional.** Si estás pasando por un momento difícil, habla con un profesional de la salud mental. Si estás en peligro, llama a los servicios de emergencia de tu país (112 en España y la UE, 911 en EE. UU. y México). En España, la línea de atención a la conducta suicida es el **024**; en EE. UU., el **988**.
+Suelta is a personal wellbeing tool. **It is not a substitute for professional help.** If you're going through a hard time, please talk to a mental health professional. If you're in danger, call your local emergency number (911 in the US and Mexico, 112 in the EU). In the US you can also call or text **988**; in Spain, **024**.
 
-## Créditos
+## Credits
 
-Las frases que aparecen al final son citas breves de sus autores (Carl Rogers, Viktor Frankl, Brené Brown, Susan David, Harriet Lerner, Elisabeth Kübler-Ross y David Kessler, Edith Eger, Kristin Neff, Erich Fromm y otros), con su nombre en cada una. Están en [`Sources/Quotes.swift`](Sources/Quotes.swift).
+The quotes shown at the end are short excerpts attributed to their authors (Carl Rogers, Viktor Frankl, Brené Brown, Susan David, Harriet Lerner, Elisabeth Kübler-Ross and David Kessler, Edith Eger, Kristin Neff, Erich Fromm and others). They live in [`Sources/Quotes.swift`](Sources/Quotes.swift).
 
-## Licencia
+## License
 
 Copyright © 2026 Bryan Chavez.
 
-Suelta es software libre bajo la licencia **GNU GPL v3**. Puedes usarla, estudiarla, mejorarla y compartirla. Si publicas una versión modificada, también debe ser de código abierto con la misma licencia. Consulta [LICENSE](LICENSE).
-
----
-
-<a id="english"></a>
-
-## English
-
-**Suelta** (Spanish for "let it go") is a free, open-source Mac app for writing down what you carry inside, choosing who it's for (yourself, an ex, your family, God, your therapist…) and then letting it go: on a **paper plane**, to the **bottom of the sea**, or into the **trash**. Each one has its own animation and sound. Nothing is actually sent: the letter is erased from your Mac the moment you let it go. Afterwards you'll see a short psychology quote that matches what you were feeling.
-
-Writing about what weighs on us helps. Psychologist James Pennebaker has studied **expressive writing** since the 1980s. Suelta turns that idea into a simple ritual: write it, see it outside of you, reread it, and let it go.
-
-- **Private by design:** no servers, accounts, ads or analytics, and no internet connection. Unsent drafts stay on your Mac only.
-- **Write, dictate or record** a voice note.
-- **Spanish and English.** Pick the language in the installer or in Settings (⌘,).
-- **Requires macOS 26 or later.** Download the installer from the [latest release](../../releases/latest). It isn't notarized yet, so right-click › Open the first time.
-- **Roadmap:** iPhone/iPad, Android and Windows.
-- **Not a substitute for professional help.** If you are in crisis, contact your local emergency services (988 in the US).
-
-Licensed under the **GNU GPL v3**. © 2026 Bryan Chavez.
+Suelta is free software under the **GNU GPL v3**. You can use, study, improve and share it. If you publish a modified version, it must also be open source under the same license. See [LICENSE](LICENSE).
